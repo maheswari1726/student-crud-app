@@ -1,0 +1,22 @@
+Python virtual environment
+
+venv/
+.venv/
+
+Python cache files
+
+pycache/
+*.py[cod]
+
+Local database
+
+students.db
+*.db
+
+Environment variables and secrets
+
+.env
+
+Editor settings
+
+.vscode/
