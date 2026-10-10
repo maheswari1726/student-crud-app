@@ -1,12 +1,12 @@
 Student Database CRUD Application
 
-##Project Overview
+Project Overview
 
 This project is a Student Database CRUD API developed using Python, FastAPI, SQLAlchemy, and SQLite.
 
 It allows users to create, view, update, and delete student records through REST API endpoints. FastAPI Swagger documentation is used to test the API.
 
-##Technologies Used
+Technologies Used
 
 - Python
 - FastAPI
@@ -15,7 +15,7 @@ It allows users to create, view, update, and delete student records through REST
 - Pydantic
 - Uvicorn
 
-##Student Information
+Student Information
 
 Each student record contains:
 
@@ -26,16 +26,16 @@ Each student record contains:
 - Email
 - Phone Number
 
-##API Endpoints
+API Endpoints
 
-- GET  / —  Check API status
-- POST  /students —  Create a student
-- GET  /students —  Retrieve all students
-- GET  /students/{student_id} —  Retrieve a student by ID
-- PUT  /students/{student_id} —  Update a student
-- DELETE /students/{student_id} —  Delete a student
+- GET / — Check API status
+- POST /students — Create a student
+- GET /students — Retrieve all students
+- GET /students/{student_id} — Retrieve a student by ID
+- PUT /students/{student_id} — Update a student
+- DELETE /students/{student_id} — Delete a student
 
-##Installation and Setup
+Installation and Setup
 
 1. Install Python.
 
@@ -63,15 +63,15 @@ Each student record contains:
    
    "http://127.0.0.1:8000/docs"
 
-##Database
+Database
 
 The application uses SQLite. The database file "students.db" is created automatically when the application starts.
 
-##Testing
+Testing
 
 The API endpoints were tested using FastAPI Swagger UI. Successful requests were received for creating, retrieving, updating, and deleting student records.
 
-##Learning Outcomes
+Learning Outcomes
 
 - Understanding REST API development
 - Working with FastAPI and SQLAlchemy
@@ -79,6 +79,6 @@ The API endpoints were tested using FastAPI Swagger UI. Successful requests were
 - Using SQLite for data persistence
 - Testing API endpoints using Swagger UI
 
-##Author
+Author
 
 Maheswari Nagaraju
