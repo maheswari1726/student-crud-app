@@ -28,13 +28,13 @@ Each student record contains:
 
 API Endpoints
 
-Method| Endpoint| Description
-GET| "/"| Check API status
-POST| "/students"| Create a student
-GET| "/students"| Retrieve all students
-GET| "/students/{student_id}"| Retrieve a student by ID
-PUT| "/students/{student_id}"| Update a student
-DELETE| "/students/{student_id}"| Delete a student
+Method   |      Endpoint            |            Description
+GET      |        "/"               |      Check API status
+POST     |     "/students"          |      Create a student
+GET      |     "/students"          |      Retrieve all students
+GET      | "/students/{student_id}" |      Retrieve a student by ID
+PUT      | "/students/{student_id}" |      Update a student
+DELETE   | "/students/{student_id}" |      Delete a student
 
 Installation and Setup
 
